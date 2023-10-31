@@ -1,4 +1,112 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -3%;
+
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #5A537B;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* HEADER STYLES */
+#conversion-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+
+    text-align: center;
+    color: #FFF;
+
+    padding-top: 33px;
+}
+
+#convert-value {
+    background: none;
+    outline: none;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+    width: 117px;
+    height: 83px;
+    /* Font Styles from Figma */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 58px;
+    /* font-style: normal; */
+    font-weight: 800;
+    line-height: 24.393px;
+
+    margin-bottom: 27px;
+}
+
+#convert-btn {
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3d3d3d;
+    padding: 9px 27.5px;
+
+    width: 117px;
+    height: 42px;
+
+    margin-bottom: 34px;
+}
+/* CONVERSION CONTENT STYLES */
+#conversion-content {
+    background-color: #f4f4f4;
+    width: 550px;
+    height: 444px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 36px 25px 35px 25px;
+}
+
+.unit-card {
+    background-color: #FFF;
+    border-radius: 6px;
+
+    width: 500px;
+    height: 108px;
+
+    text-align: center;
+    /* padding: 31px 77px 18.57px 77px; */
 }
