@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin-top: 10%;
     font-family: Inter, sans-serif;
     background-color: #1c1c1c;
 }
@@ -33,6 +33,7 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 /* HEADER STYLES */
 #conversion-header {
     display: flex;
@@ -47,6 +48,8 @@ p {
     color: #FFF;
 
     padding-top: 33px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #convert-value {
@@ -97,7 +100,8 @@ p {
     justify-content: space-around;
     align-items: center;
 
-    padding: 36px 25px 35px 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .unit-card {
@@ -108,5 +112,13 @@ p {
     height: 108px;
 
     text-align: center;
-    /* padding: 31px 77px 18.57px 77px; */
+}
+
+/* managing the spacing in conjunction with Flexbox */
+.unit-card:first-child {
+    margin-top: 36px;
+  }
+
+  .unit-card:nth-last-child(1) {
+    margin-bottom: 35px;
 }
